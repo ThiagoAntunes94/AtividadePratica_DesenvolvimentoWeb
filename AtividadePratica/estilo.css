@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Índice do site*/
+header {
+    background-color:#646464;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00d400;
+}
+
+/* conteúdo do site*/
+main {
+    padding: 50px;
+}
+
+.informacao{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    line-height: 1.6;
+}
+
+.informacao img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* contato do site*/
+.contato {
+    margin-top: 30px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 250px;
+    padding: 5px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 14px;
+}
+
+#mensagem {
+    width: 300px;
+    height: 120px;
+}
+
+/* rodapé do site */
+footer {
+    background-color: #646464;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+    text-align: center;
+}
